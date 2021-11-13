@@ -1,7 +1,6 @@
-import java.util.ArrayList;
 import java.io.*;
 import java.util.*;
-import java.util.Collections;
+​
 ​
 class Solution {
     public boolean isSubsequence(String s, String t) {
