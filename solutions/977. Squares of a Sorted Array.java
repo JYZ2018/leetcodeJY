@@ -14,12 +14,12 @@ class Solution {
         
         //System.out.println("sep is: "+sep);
         
-        if (sep==0) {
+        /*if (sep==0) {
             for (int i=0; i<nums.length; i++) {
                 result[i]=nums[i]*nums[i];
-            }
+            }
             return result;
-        }
+        } */
         
        int m=0;
        if (sep==-1) {
