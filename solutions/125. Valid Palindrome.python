@@ -4,23 +4,12 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
-        s=s.lower()
-        left=0
-        right=len(s)-1
-        #print(not s[left].isalnum())
-        while left<right:
-            while not s[left].isalnum() and left<right:
-                left=left+1
-            while not s[right].isalnum() and left<right:
-                right=right-1
-            if s[left]!=s[right]:
-                return False
-            else:
-                left=left+1
-                right=right-1
-        return True
-            
-      
-           
-       
+        s=s.encode('ascii','ignore')
+        if s=="":
+            return True
+        else:
+            s=''.join(filter(str.isalnum,s))
+            s=s.lower()
+            a=s[::-1]
+            return s==a
             
