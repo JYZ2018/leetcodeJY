@@ -15,10 +15,10 @@ class Solution:
                 a=i-1
                 b=i+1
                 while a>=0 and b<=len(s)-1 and s[a]==s[b]:
-                    sn=s[a:b+1]
+                    
                     a=a-1
                     b=b+1
-                   
+                sn=s[a+1:b]
                 if len(sn)>len(s0):
                     s0=sn
                 
@@ -28,10 +28,10 @@ class Solution:
                
                 while a>=0 and b<=len(s)-1 and s[a]==s[b]:
                     
-                    sn=s[a:b+1]
+                    
                     a=a-1
                     b=b+1
-                    
+                sn=s[a+1:b]   
                 if len(sn)>len(s0):
                     s0=sn
        
