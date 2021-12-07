@@ -1,43 +1,48 @@
 class Solution:
     def longestPalindrome(self, s: str) -> str:
-        if len(s)==1 or len(s)==0:
-            return s
+        sr=''
+        for i in range(0,len(s)):
+            sr=sr+'|'+s[i]
+        sr=sr+'|'
         
-        #if len(s)==2 and s[1]==s[0]:
-            #return s
+        center=0
+        radius=0
+        pa=[]
         
-        sn=''
-        for i in range(0,len(s)-1):
-            if i==0:
-                s0=s[0]
-                
-            if s[i]==s[i]:
-                a=i-1
-                b=i+1
-                while a>=0 and b<=len(s)-1 and s[a]==s[b]:
-                    
-                    a=a-1
-                    b=b+1
-                sn=s[a+1:b]
-                if len(sn)>len(s0):
-                    s0=sn
-                
-            if s[i]==s[i+1]:
-                a=i
-                b=i+1
-               
-                while a>=0 and b<=len(s)-1 and s[a]==s[b]:
-                    
-                    
-                    a=a-1
-                    b=b+1
-                sn=s[a+1:b]   
-                if len(sn)>len(s0):
-                    s0=sn
-       
+        while center<len(sr):
+            while center-(radius+1)>=0 and center+(radius+1)<len(sr) and sr[center-(radius+1)]==sr[center+(radius+1)]:
+                radius+=1
+            pa.append(radius)
             
-        return s0
             
+            oldcenter=center
+            oldradius=radius
+            radius=0
+            center=oldcenter+1
+            while center<=oldcenter+oldradius:
+                mirrorcenter=oldcenter-(center-oldcenter)
+                maxradius=oldcenter+oldradius-center
+                if pa[mirrorcenter]<maxradius:
+                    pa.append(pa[mirrorcenter])
+                    center=center+1
+                elif pa[mirrorcenter]>maxradius:
+                    pa.append(maxradius)
+                    center=center+1
+                else:
+                    radius=maxradius
+                    break
+                
+        pali_len=max(pa)
+        pali_center=pa.index(max(pa))
+        #print(pa)
+        #print(pali_len)
+        #print(pali_center)
+        #print(int (pali_center-int((pali_len-1)/2)))
+        return sr[(pali_center-pali_len):(pali_center+pali_len+1)].replace('|','')
+                
+                
+            
+        
             
                 
         
