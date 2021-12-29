@@ -4,6 +4,7 @@
 |---| ----- | -------- | ------- |
 |5|[ Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Java](./solutions/5.%20Longest%20Palindromic%20Substring.java)|23 ms|
 |15|[ 3Sum](https://leetcode.com/problems/3sum/)|[Java](./solutions/15.%203Sum.java)|20 ms|
+|28|[ Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[Python3](./solutions/28.%20Implement%20strStr().py)|56 ms|
 |53|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Java](./solutions/53.%20Maximum%20Subarray.java)|1 ms|
 |75|[ Sort Colors](https://leetcode.com/problems/sort-colors/)|[Python3](./solutions/75.%20Sort%20Colors.py)|48 ms|
 |88|[ Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Java](./solutions/88.%20Merge%20Sorted%20Array.java)|0 ms|
