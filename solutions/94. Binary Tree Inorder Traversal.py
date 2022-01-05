@@ -7,9 +7,21 @@
 class Solution:
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         
+        res=[]
+       
+        curr=root
+        q = deque([])
         
-        
-        
+        while  curr or len(q)>0:
+           
+            while curr:
+                q.append(curr)
+                curr=curr.left
+            curr=q.pop()
+            res.append(curr.val)
+            curr=curr.right
+            
+        return res
         
         
         '''
@@ -25,6 +37,3 @@ class Solution:
         helper(root)
         return self.result
         '''
-        
-            
-            
