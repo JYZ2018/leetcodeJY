@@ -27,7 +27,7 @@
 |236|[ Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[Python3](./solutions/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.py)|N/A|
 |238|[ Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[Python3](./solutions/238.%20Product%20of%20Array%20Except%20Self.py)|276 ms|
 |278|[ First Bad Version](https://leetcode.com/problems/first-bad-version/)|[Java](./solutions/278.%20First%20Bad%20Version.java)|15 ms|
-|283|[ Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Java](./solutions/283.%20Move%20Zeroes.java)|4 ms|
+|283|[ Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Python3](./solutions/283.%20Move%20Zeroes.py)|156 ms|
 |344|[ Reverse String](https://leetcode.com/problems/reverse-string/)|[Java](./solutions/344.%20Reverse%20String.java)|0 ms|
 |392|[ Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[Java](./solutions/392.%20Is%20Subsequence.java)|2 ms|
 |438|[ Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[Python3](./solutions/438.%20Find%20All%20Anagrams%20in%20a%20String.py)|278 ms|
