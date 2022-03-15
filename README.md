@@ -6,6 +6,7 @@
 |3|[ Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Python3](./solutions/3.%20Longest%20Substring%20Without%20Repeating%20Characters.py)|2007 ms|
 |5|[ Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Java](./solutions/5.%20Longest%20Palindromic%20Substring.java)|23 ms|
 |15|[ 3Sum](https://leetcode.com/problems/3sum/)|[Java](./solutions/15.%203Sum.java)|20 ms|
+|21|[ Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Python3](./solutions/21.%20Merge%20Two%20Sorted%20Lists.py)|59 ms|
 |26|[ Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java](./solutions/26.%20Remove%20Duplicates%20from%20Sorted%20Array.java)|1 ms|
 |28|[ Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[Python3](./solutions/28.%20Implement%20strStr().py)|56 ms|
 |34|[ Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Python3](./solutions/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.py)|131 ms|
