@@ -7,18 +7,33 @@
 class Solution:
     def detectCycle(self, head: Optional[ListNode]) -> Optional[ListNode]:
         
-        d={}
-        if head==None:
-            return head
-        while head.next:
-            d[head]=head
-            head=head.next
-            if head in d:
-                return d[head]
+        # two pointer
+        slow,fast=head,head
+        while fast and fast.next:
+            slow=slow.next
+            fast=fast.next.next
+            if slow==fast:
                 break
-                
-               
+        if not fast or not fast.next:
+            return None
+        #print(fast)
+        slow=head
+        while slow:
             
-      
-            
+            if slow==fast:
+                return slow
+            slow=slow.next
+            fast=fast.next
         
+        # elegant hash map method
+        # s=set()
+        # while head:
+        #     if head in s:
+        #         return head
+        #     s.add(head)
+        #     head=head.next
+        
+        
+        
+        # use dictionary
+        # d={}
