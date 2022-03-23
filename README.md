@@ -50,7 +50,7 @@
 |733|[ Flood Fill](https://leetcode.com/problems/flood-fill/)|[Python3](./solutions/733.%20Flood%20Fill.py)|140 ms|
 |852|[ Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Python3](./solutions/852.%20Peak%20Index%20in%20a%20Mountain%20Array.py)|72 ms|
 |875|[ Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)|[Python3](./solutions/875.%20Koko%20Eating%20Bananas.py)|672 ms|
-|876|[ Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Python3](./solutions/876.%20Middle%20of%20the%20Linked%20List.py)|53 ms|
+|876|[ Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Python3](./solutions/876.%20Middle%20of%20the%20Linked%20List.py)|49 ms|
 |912|[ Sort an Array](https://leetcode.com/problems/sort-an-array/)|[Python3](./solutions/912.%20Sort%20an%20Array.py)|833 ms|
 |969|[ Pancake Sorting](https://leetcode.com/problems/pancake-sorting/)|[Python3](./solutions/969.%20Pancake%20Sorting.py)|46 ms|
 |977|[ Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Java](./solutions/977.%20Squares%20of%20a%20Sorted%20Array.java)|1 ms|
