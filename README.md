@@ -13,6 +13,7 @@
 |35|[ Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[Python3](./solutions/35.%20Search%20Insert%20Position.py)|52 ms|
 |42|[ Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|[Python3](./solutions/42.%20Trapping%20Rain%20Water.py)|135 ms|
 |53|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Java](./solutions/53.%20Maximum%20Subarray.java)|1 ms|
+|56|[ Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Python3](./solutions/56.%20Merge%20Intervals.py)|169 ms|
 |75|[ Sort Colors](https://leetcode.com/problems/sort-colors/)|[Java](./solutions/75.%20Sort%20Colors.java)|0 ms|
 |81|[ Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[Python3](./solutions/81.%20Search%20in%20Rotated%20Sorted%20Array%20II.py)|67 ms|
 |86|[ Partition List](https://leetcode.com/problems/partition-list/)|[Python3](./solutions/86.%20Partition%20List.py)|49 ms|
