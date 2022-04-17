@@ -47,6 +47,7 @@
 |345|[ Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Python3](./solutions/345.%20Reverse%20Vowels%20of%20a%20String.py)|102 ms|
 |349|[ Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Python3](./solutions/349.%20Intersection%20of%20Two%20Arrays.py)|94 ms|
 |350|[ Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Python3](./solutions/350.%20Intersection%20of%20Two%20Arrays%20II.py)|44 ms|
+|383|[ Ransom Note](https://leetcode.com/problems/ransom-note/)|[Python3](./solutions/383.%20Ransom%20Note.py)|63 ms|
 |392|[ Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[Java](./solutions/392.%20Is%20Subsequence.java)|2 ms|
 |438|[ Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[Python3](./solutions/438.%20Find%20All%20Anagrams%20in%20a%20String.py)|278 ms|
 |560|[ Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Java](./solutions/560.%20Subarray%20Sum%20Equals%20K.java)|17 ms|
