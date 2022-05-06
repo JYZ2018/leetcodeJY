@@ -30,6 +30,7 @@
 |122|[ Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[Python3](./solutions/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.py)|69 ms|
 |125|[ Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Python3](./solutions/125.%20Valid%20Palindrome.py)|59 ms|
 |142|[ Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Python3](./solutions/142.%20Linked%20List%20Cycle%20II.py)|80 ms|
+|152|[ Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[Python3](./solutions/152.%20Maximum%20Product%20Subarray.py)|94 ms|
 |154|[ Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|[Python3](./solutions/154.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II.py)|78 ms|
 |160|[ Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Python3](./solutions/160.%20Intersection%20of%20Two%20Linked%20Lists.py)|247 ms|
 |167|[ Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Python3](./solutions/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.py)|192 ms|
