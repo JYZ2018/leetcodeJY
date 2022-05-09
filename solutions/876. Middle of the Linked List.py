@@ -6,14 +6,21 @@
 class Solution:
     def middleNode(self, head: Optional[ListNode]) -> Optional[ListNode]:
         
+        lst=[]
+        while head:
+            lst.append(head)
+            head=head.next
+        return lst[len(lst)//2]
+        
         
         # slow and fast pointer
-        slow, fast=head,head
-        while fast and fast.next:
-            slow=slow.next
-            fast=fast.next.next
-        return slow
-        
+        '''
+        slow, fast=head,head
+        while fast and fast.next:
+            slow=slow.next
+            fast=fast.next.next
+        return slow
+        '''
         
         
         #my own messy code
