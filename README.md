@@ -31,7 +31,7 @@
 |125|[ Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Python3](./solutions/125.%20Valid%20Palindrome.py)|59 ms|
 |141|[ Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Java](./solutions/141.%20Linked%20List%20Cycle.java)|0 ms|
 |142|[ Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Python3](./solutions/142.%20Linked%20List%20Cycle%20II.py)|80 ms|
-|147|[ Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|[Java](./solutions/147.%20Insertion%20Sort%20List.java)|26 ms|
+|147|[ Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|[Java](./solutions/147.%20Insertion%20Sort%20List.java)|23 ms|
 |152|[ Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[Python3](./solutions/152.%20Maximum%20Product%20Subarray.py)|94 ms|
 |154|[ Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|[Python3](./solutions/154.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II.py)|78 ms|
 |160|[ Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Python3](./solutions/160.%20Intersection%20of%20Two%20Linked%20Lists.py)|247 ms|
