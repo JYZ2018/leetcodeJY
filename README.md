@@ -50,6 +50,7 @@
 |202|[ Happy Number](https://leetcode.com/problems/happy-number/)|[Java](./solutions/202.%20Happy%20Number.java)|3 ms|
 |203|[ Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Python3](./solutions/203.%20Remove%20Linked%20List%20Elements.py)|76 ms|
 |206|[ Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Java](./solutions/206.%20Reverse%20Linked%20List.java)|0 ms|
+|208|[ Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|[Java](./solutions/208.%20Implement%20Trie%20(Prefix%20Tree).java)|66 ms|
 |209|[ Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Python3](./solutions/209.%20Minimum%20Size%20Subarray%20Sum.py)|93 ms|
 |215|[ Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Python3](./solutions/215.%20Kth%20Largest%20Element%20in%20an%20Array.py)|128 ms|
 |217|[ Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Java](./solutions/217.%20Contains%20Duplicate.java)|9 ms|
